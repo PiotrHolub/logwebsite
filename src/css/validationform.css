@@ -1,0 +1,19 @@
+/* ------------- Validation classes ------------- */
+.formopacity {
+  opacity: 0.2; }
+
+.loaderhidden {
+  display: none; }
+
+.input-group-validation {
+  border: 1.5px solid red;
+  border-radius: 5px; }
+
+.input-group-text-validation {
+  background-color: red !important; }
+
+.checkmark-validation {
+  border: 2px solid red;
+  border-radius: 45px; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInZhbGlkYXRpb25mb3JtLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUMsb0RBQW9EO0FBRXBEO0VBQ0csYUFBVyxFQUNiOztBQUNEO0VBQ0csY0FBYSxFQUNmOztBQUNEO0VBQ0csd0JBQXNCO0VBQ3RCLG1CQUFpQixFQUNuQjs7QUFDRDtFQUNHLGlDQUFnQyxFQUNsQzs7QUFDRDtFQUNHLHNCQUFvQjtFQUNwQixvQkFBa0IsRUFDcEIiLCJmaWxlIjoidmFsaWRhdGlvbmZvcm0uY3NzIiwic291cmNlc0NvbnRlbnQiOlsiIC8qIC0tLS0tLS0tLS0tLS0gVmFsaWRhdGlvbiBjbGFzc2VzIC0tLS0tLS0tLS0tLS0gKi9cclxuXHJcbiAuZm9ybW9wYWNpdHl7XHJcbiAgICBvcGFjaXR5OjAuMjtcclxuIH1cclxuIC5sb2FkZXJoaWRkZW57XHJcbiAgICBkaXNwbGF5OiBub25lO1xyXG4gfVxyXG4gLmlucHV0LWdyb3VwLXZhbGlkYXRpb257XHJcbiAgICBib3JkZXI6MS41cHggc29saWQgcmVkO1xyXG4gICAgYm9yZGVyLXJhZGl1czo1cHg7XHJcbiB9XHJcbiAuaW5wdXQtZ3JvdXAtdGV4dC12YWxpZGF0aW9ue1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmVkICFpbXBvcnRhbnQ7XHJcbiB9XHJcbiAuY2hlY2ttYXJrLXZhbGlkYXRpb257XHJcbiAgICBib3JkZXI6MnB4IHNvbGlkIHJlZDtcclxuICAgIGJvcmRlci1yYWRpdXM6NDVweDtcclxuIH0iXX0= */

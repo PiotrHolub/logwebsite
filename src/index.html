@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Strona Logowania</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="col-xs-12 col-xl-6 logo">
+                <img src="images/LOGO_2.png" id="logo2" alt="Logo_2">
+                <img src="images/LOGO_1.png" id="logo1" alt="Logo_1">
+            </div>
+          
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-xl-6 form">
+                        <div id="error" class="incorrectemail errorhidden">
+                            <img src="images/ico_4.png" alt="ico_4">
+                            <p>Wpisz poprawny e-mail</p>
+                        </div>
+                        <form id="form" novalidate>
+                            <div class="input-group firstgroup">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <img src="images/ico_1.png" alt="ico_1">
+                                    </div>
+                                </div>
+                                <input type="email" name="email" id="email" class="form-control" placeholder="Adres e-mail..." required>
+                            </div>
+                        
+                            <div id="phonenumberdiv" class="input-group secondgroup phonenumber">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <img src="images/ico_2.png" alt="ico_2">
+                                    </div>
+                                </div>
+                                <input type="text" id="phonenumber" class="form-control" placeholder="+__ _________________" required>
+                            </div>
+                            <div class="input-group secondgroup smspassword">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <img src="images/ico_3.png" alt="ico_3">
+                                    </div>
+                                </div>
+                                <input type="text" id="smspassword" class="form-control" placeholder="Wpisz hasło otrzymane w SMS..." required>
+                            </div>
+                            <div class="accept">
+                                <label class="checkbox-container"><p>Akceptuję regulamin i politykę prywatności</p>
+                                    <input type="checkbox" required>
+                                    <span id="checkmark" class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="sentform">
+                                <button id="loggin" class="btn btn-primary" type="submit" value="Zaloguj">Zaloguj</button>
+                            </div>  
+                        </form>
+
+                        <div class="row">
+                            <div id="loader" class="loader loaderhidden">
+                                <div></div><div></div><div></div><div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

@@ -1,0 +1,178 @@
+@import "settings";
+@import "variables";
+@import "checkbox";
+@import "validationform";
+
+body{
+    background-color: $color-bg;
+    color: $text-color;
+}
+
+/* ------------- Header Section ------------- */
+.logo{
+    margin: 0 auto;
+    img{
+        padding-top: 10px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+#logo1{
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 50px;
+    display: none;
+}
+#logo2{
+    display: none;
+}
+
+/* ------------- Form Section ------------- */
+.errorhidden{
+    display: none;
+}
+.incorrectemail{
+    border: 2px solid red;
+    border-radius: 5px;
+    width: 80%;
+    margin: 30px auto 0;
+    img{
+        padding: 5px;
+    }
+    p{
+        color: red;
+        display: inline-block;
+        margin: 0 auto;
+    }
+}
+.form{
+    border-radius: 3%;
+    background-color:$grey;
+    margin: 0 auto;
+    padding-top: 10px;
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+.firstgroup{
+    margin-top:30px;
+}
+.secondgroup{
+    margin-top:30px;
+}
+.input-group-text{
+    background-color: $green;
+    height: 40px;
+    width: 60px;
+    img{
+        margin: 0 auto;
+    }
+}
+.form-control{
+    height: 40px;
+}
+.accept{
+    padding-top: 55px;
+    label{
+        p{
+            font-size: 13px;
+        }
+    }
+}
+
+.sentform{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    button{
+        width: 40%;
+        margin-left:30%;
+        box-shadow: 0 5px rgb(6, 73, 126);
+        background-color: rgb(7, 105, 178);
+    }
+}
+
+/* ------------- Animation loader ------------- */
+.loader {
+    margin: 0 auto;
+    div{
+        height: 8px;
+        width: 8px;
+        display: inline-block;
+        border-radius: 45%;
+        background-color:rgb(5,172,224);
+        margin: 8px;
+        animation-name: blink;
+        animation-duration: 1.4s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: both;
+        float: none;
+    }
+    :nth-child(2){
+        animation-delay: .2s;
+    }
+    :nth-child(3){
+        animation-delay: .4s;
+    }
+    :nth-child(4){
+        animation-delay: .6s;
+    }
+  }
+
+@keyframes blink {
+    0% {
+        opacity: .2;
+        transform:scale(2); 
+    }
+    20% {
+        opacity: 1;
+    }
+    100% {
+        opacity: .2;
+    }
+}
+
+  
+/* ------------- Media Queries ------------- */
+  
+@media (max-width: 575.98px) { 
+    .form{
+        background-color: $color-bg;
+    }
+    #logo2{
+        display: block;
+    }
+    .smspassword{
+        display: none;
+    }
+    #error{
+        background-color: white;
+    }
+ }
+
+ @media (min-width: 1200px) {
+    body{
+        color: black;
+    }
+        #logo1{
+        display: block;
+    }
+    .logo{
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+    .form form{
+        width: 80%; 
+    }
+    .phonenumber{
+        display: none;
+    }
+    .accept{
+        padding-top: 35px;
+        margin-left: 60px;
+    }
+    .loader{
+        padding-bottom: 15px;
+    }
+ }
